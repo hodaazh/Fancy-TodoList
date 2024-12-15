@@ -9,7 +9,7 @@ import { Filtered } from "../_components/elements/Filtered";
 import { InputForm } from "../_components/elements/InputForm";
 import { Progressbar } from "../_components/elements/Progressbar";
 
-const Home = () => {
+const TodoList = () => {
   const [input, setInput] = useState("");
   const [openTextBox, setOpenTextBox] = useState(false);
   const [filterdStatus, setFilteredStatus] = useState<"All" | "Completed">(
@@ -85,4 +85,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default TodoList;
